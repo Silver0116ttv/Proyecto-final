@@ -10,7 +10,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/style.css">
-        <title>Sucursal San Vicente</title>
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/sucursales.css">
+        <title>Sucursal Sayulita</title>
     </head>
     <body>
     <header>
@@ -21,24 +23,45 @@
         </nav>
     </header>
     <section class="section-padding">
-                <div class="container-fluid">
-
-                    <h1 class="text-center">Sucursal San Vicente</h1> <span>Horario de trabajo:</span>
-                    <p>Ubicado en: </p>
-                    <p>Calle reforma #32, 63737, San Vicente, Bahía de Banderas, Nay.</p>
+        
+        <h1 class="text-center mb-5">Sucursal Sayulita</h1> 
+        <div class="container-fluid main-container p-3">
+            <p>Horario de trabajo:</p>
+            <p>Ubicado en: </p>
+            <p>Calle reforma #32, 63737, San Vicente, Bahía de Banderas, Nay.</p>
                     
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1669706371566!6m8!1m7!1sSuL-HnxhRa1PkHnYSRvnLA!2m2!1d20.86585590196234!2d-105.4329168507928!3f9.164014751465743!4f-9.065128977464013!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1669706371566!6m8!1m7!1sSuL-HnxhRa1PkHnYSRvnLA!2m2!1d20.86585590196234!2d-105.4329168507928!3f9.164014751465743!4f-9.065128977464013!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
-                <div class="d-grid">
-                <button class="btn btn-outline-secondary" type="button"><a href="reservar.php">Agenda tu cita</a></button>
+            <div class="d-grid">
+                <button type="button" class="btn btn-outline-info btn-reserve"><a href="reservar.php">Reserva una cita</a></button>
+            </div>
+        </div>
+           
+    </section>
+    <section class="section-padding">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3  ">
+                <div class="card text-bg-dark h-100 border-0">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/sucursales-images/img1.jpg" alt="...">
                 </div>
-                    
-            </section>
-        <footer class="section-padding">
-            <?php
-                include("footer.html");
-            ?>
-        </footer>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3 ">
+                <div class="card text-bg-dark h-100 border-0">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/sucursales-images/img2.jpg" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 p-3 ">
+                <div class="card text-bg-dark h-100 border-0">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/sucursales-images/img3.jpg" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="section-padding">
+        <?php
+            include("footer.html");
+        ?>
+    </footer>
     </body>
 </html>

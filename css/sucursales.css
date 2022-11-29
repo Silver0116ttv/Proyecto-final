@@ -1,0 +1,17 @@
+.main-container{
+    background-color: #fff;
+}
+
+.btn-reserve{
+    margin-top: 3%;
+    border-color: #a1d6e2;
+
+}
+.btn-reserve:hover{
+    border-color: #1995ad;
+    color: #fff;
+    background-color: #1995ad;
+}
+img{
+    height: 50%;
+}

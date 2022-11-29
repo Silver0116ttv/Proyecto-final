@@ -10,6 +10,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Nombre de la clinica</title>
     </head>
@@ -56,7 +57,7 @@
         
         <!--Features section-->
         <section id="features" class="section-padding">
-            <h2 class="text-center">¿Por qué elegir consultorio dental Alma Temblador?</h2>
+            <h2 class="text-center pb-5">¿Por qué elegir consultorio dental Alma Temblador?</h2>
             <div class="row">
                 <div class="feature-box col-lg-3 text-center">
                     <span class="bi bi-check2 fa-4x feature-icons"></span>
@@ -89,100 +90,89 @@
                 <button type="button" class="btn btn-outline-info btn-reserve"><a href="reservar.php">Reserva una cita</a></button>
             </div>
         </section>
+
         <!--Tratamientos-->
         <section class="section-padding">
             <h2 class="text-center">Nuestros Servicios</h2>
-        <div class="fluid-container text-center ">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
-                    <div class="card tratamientos-card">
-                        <div class="card-tittle">
-                            <h3>Diagnostico y Prevención</h3>
-                        </div>
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis tempore, neque, fuga quam porro iste enim amet eos, est necessitatibus voluptates magni ipsam nisi placeat? Sunt atque rem unde!</p>
-                            <img src="imagenes/tratamientos-images/Diagnostico.jpg" alt="" class="img-fluid">
-                            <a href="diagnostico.php" target="_blank"><button type="button" class="btn btn-outline-info btn-reserve">Leer mas</button></a>
-                        </div>
+            <div class="container-fluid text-center p-3">
+            
+                <div class="row tratamientos-row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 card-tratamiento p-3 ">
+                        <a href="diagnostico.php">
+                            <div class="card text-bg-dark h-100 border-0">
+                                <img class="imagen-selecprod card-img rounded" src="imagenes/tratamientos-images/Diagnostico.jpg" alt="...">
+                                <div class="card-img-overlay">
+                                    <h3 class="tratamiento-name ">Diagnostico y Prevención</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 card-tratamiento p-3 ">
+                        <a href="implantes.php">
+                            <div class="card text-bg-dark h-100 border-0">
+                                <img class="imagen-selecprod card-img rounded" src="imagenes/tratamientos-images/i3.jpg" alt="...">
+                                <div class="card-img-overlay">
+                                    <h3 class="tratamiento-name ">Implantes</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 card-tratamiento p-3 ">
+                        <a href="caries.php">
+                            <div class="card text-bg-dark h-100 border-0">
+                                <img class="imagen-selecprod card-img rounded" src="imagenes/tratamientos-images/caries.jpg" alt="...">
+                                <div class="card-img-overlay">
+                                    <h3 class="tratamiento-name ">Caries</h3>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card">
-                        <div class="card-tittle">
-                            <h3>Implantes</h3>
-                        </div>
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis tempore, neque, fuga quam porro iste enim amet eos, est necessitatibus voluptates magni ipsam nisi placeat? Sunt atque rem unde!</p>
-                            <img src="imagenes/tratamientos-images/i3.jpg" alt="" class="img-fluid">
-                            <a href="implantes.php" target="_blank"><button type="button" class="btn btn-outline-info btn-reserve">Leer mas</button></a>
-                        </div>
+                <div class="row tratamientos-row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 card-tratamiento p-3">
+                        <a href="caries.php">
+                            <div class="card text-bg-dark h-100 border-0">
+                                <img class="imagen-selecprod card-img rounded" src="imagenes/tratamientos-images/profilaxis.jpg" alt="...">
+                                <div class="card-img-overlay">
+                                    <h3 class="tratamiento-name ">Profilaxis</h3>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                        <div class="card-tittle">
-                            <h3>Caries</h3>
-                        </div>
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis tempore, neque, fuga quam porro iste enim amet eos, est necessitatibus voluptates magni ipsam nisi placeat? Sunt atque rem unde!</p>
-                            <img src="imagenes/tratamientos-images/caries.jpg" alt="" class="img-fluid">
-                            <a href="caries.php" target="_blank"><button type="button" class="btn btn-outline-info btn-reserve">Leer mas</button></a>
-                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 card-tratamiento p-3">
+                        <a href="caries.php">
+                            <div class="card text-bg-dark h-100 border-0">
+                                <img class="imagen-selecprod card-img rounded" src="imagenes/tratamientos-images/protesis-dentales.jpg" alt="...">
+                                <div class="card-img-overlay">
+                                    <h3 class="tratamiento-name ">Prótesis</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 card-tratamiento p-3">
+                        <a href="caries.php">
+                            <div class="card text-bg-dark h-100 border-0">
+                                <img class="imagen-selecprod card-img rounded" src="imagenes/tratamientos-images/bruxismo.jpg" alt="...">
+                                <div class="card-img-overlay">
+                                    <h3 class="tratamiento-name ">Bruxismo</h3>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card">
-                            <div class="card-tittle">
-                                <h3>Profilaxis</h3>
-                            </div>
-                            <div class="card-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis tempore, neque, fuga quam porro iste enim amet eos, est necessitatibus voluptates magni ipsam nisi placeat? Sunt atque rem unde!</p>
-                                <img src="imagenes/tratamientos-images/profilaxis.jpg" alt="" class="img-fluid">
-                                <a href="caries.php" target="_blank"><button type="button" class="btn btn-outline-info btn-reserve">Leer mas</button></a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card">
-                        <div class="card-tittle">
-                            <h3>Prótesis</h3>
-                        </div>
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis tempore, neque, fuga quam porro iste enim amet eos, est necessitatibus voluptates magni ipsam nisi placeat? Sunt atque rem unde!</p>
-                            <img src="imagenes/tratamientos-images/protesis-dentales.jpg" alt="" class="img-fluid">
-                            <a href="caries.php" target="_blank"><button type="button" class="btn btn-outline-info btn-reserve">Leer mas</button></a>
-                        </div>
-                    </div>
-                </div>        
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="card">
-                        <div class="card-tittle">
-                            <h3>Bruxismo</h3>
-                        </div>
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis tempore, neque, fuga quam porro iste enim amet eos, est necessitatibus voluptates magni ipsam nisi placeat? Sunt atque rem unde!</p>
-                            <img src="imagenes/tratamientos-images/bruxismo.jpg" alt="" class="img-fluid">
-                            <a href="caries.php" target="_blank"><button type="button" class="btn btn-outline-info btn-reserve">Leer mas</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                
-        </div>
         </section>
 
         <!--Iframe section-->
-        <section id="location" class="section-padding text-center">
+        <section id="location" class="section-padding text-center ">
             <h2>Donde nos ubicamos</h2>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select my-3" aria-label="Default select example ">
                 <option selected>Seleccione el consultorio</option>
                 <option value="San-Vicente">San Vicente</option>
                 <option  value="Sayulita">Sayulita</option>
             </select>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14928.917265196134!2d-105.27799865!3d20.70091065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1669714637154!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
+        </section>
         <footer class="section-padding">
             <?php
                 include("footer.html");

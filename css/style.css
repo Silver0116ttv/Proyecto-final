@@ -8,7 +8,7 @@ footer{
     background-color: #4ba8c0;
 
 }
-.social-footer span{
+.social-footer .icon{
     font-size: 3rem;
     padding: 3%;
 }
@@ -17,9 +17,7 @@ footer a{
     color: #cbeaf0;
 
 }
-h2{
-    padding-bottom: 3%;
-}
+
 a{
     text-decoration: none;
     color: #A0E4CB
@@ -28,6 +26,7 @@ a{
 .section-padding{
     padding: 5% 5% 2% 5%; 
 }
+
 /*features*/
 #features{
     background-color: #f9f9f9;
@@ -44,8 +43,10 @@ a{
     padding-top: 12px;
 }
 
-.tratamientos-card{
-    background-color: rgba(255, 255, 255, .6);
+
+.icon:hover{
+    color: #1995ad;
+    cursor: pointer;
 }
 
 /*botones feature*/
@@ -60,6 +61,14 @@ a{
     background-color: #1995ad;
 }
 
+/*Tratameintos*/
+.tratamiento-name{
+    color: #555555;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
 /*Location*/
 #location{
     background-color: #fff;

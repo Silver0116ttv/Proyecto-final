@@ -10,6 +10,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/sucursales.css">
         <title>Sucursal San Vicente</title>
     </head>
     <body>
@@ -20,21 +22,70 @@
             ?>
         </nav>
     </header>
-    <section class="section-padding">
-                <div class="container-fluid">
 
-                    <h1 class="text-center">Sucursal San Vicente</h1> <span>Horario de trabajo:</span>
-                    <p>Ubicado en: </p>
-                    <p>Calle reforma #32, 63737, San Vicente, Bahía de Banderas, Nay.</p>
+    <!-- <section>
+            <div id="sucursalCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#sucursalCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#sucursalCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#sucursalCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" >
+                    <div class="carousel-item active">
+                        <img src="imagenes/sucursales-images/img1.jpg" alt="carouselImage1" title="carouselImage1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/sucursales-images/img2.jpg" alt="carouselImage2" title="carouselImage2" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/sucursales-images/img3.jpg" alt="carouselImage3" title="carouselImage3" class="d-block w-100">
+                    </div>
                     
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1669706730062!6m8!1m7!1smzWlGNS48T2L_Sz29g9xag!2m2!1d20.74905844438806!2d-105.2494948336726!3f112.18786047441509!4f-7.87266722842601!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section> -->
+    <section class="section-padding">
+
+        <h1 class="text-center mb-5">Sucursal San Vicente</h1> 
+        <div class="container-fluid main-container p-3">
+            <p>Horario de trabajo:</p>
+            <p>Ubicado en: </p>
+            <p>Calle reforma #32, 63737, San Vicente, Bahía de Banderas, Nay.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1669706730062!6m8!1m7!1smzWlGNS48T2L_Sz29g9xag!2m2!1d20.74905844438806!2d-105.2494948336726!3f112.18786047441509!4f-7.87266722842601!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
                 <div class="d-grid">
-                    <button class="btn btn-outline-secondary" type="button"><a href="reservar.php">Agenda tu cita</a></button>
+                <button type="button" class="btn btn-outline-info btn-reserve"><a href="reservar.php">Reserva una cita</a></button>
                 </div>
-                    
-            </section>
+        </div>      
+    </section>
+    <section class="section-padding">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3  ">
+                <div class="card text-bg-dark h-100 border-0">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/sucursales-images/img1.jpg" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3 ">
+                <div class="card text-bg-dark h-100 border-0">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/sucursales-images/img2.jpg" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 p-3 ">
+                <div class="card text-bg-dark h-100 border-0">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/sucursales-images/img3.jpg" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
         <footer class="section-padding">
             <?php
                 include("footer.html");
