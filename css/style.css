@@ -1,7 +1,20 @@
 body{
 
-    background-color: #99cccc;
+    background-color: #a1d6e2;
     overflow-x: hidden;
+}
+footer{
+    color: #a1d6e2;
+    background-color: #4ba8c0;
+
+}
+.social-footer span{
+    font-size: 3rem;
+    padding: 3%;
+}
+footer a{
+    text-decoration: none;
+    color: #a1d6e2;
 }
 h2{
     padding-bottom: 3%;
@@ -10,7 +23,8 @@ a{
     text-decoration: none;
     color: #A0E4CB
 }
-section{
+
+.section-padding{
     padding: 5% 5% 2% 5%; 
 }
 /*features*/
@@ -20,25 +34,29 @@ section{
 }
 .feature-icons{
     margin-bottom: 1rem;
-    color: #A0E4CB;
+    color: #a1d6e2;
 }
 .feature-icons:hover{
-    color: #99cccc;
+    color: #1995ad;
 }
 .fawesome{
     padding-top: 12px;
 }
 
+.tratamientos-card{
+    background-color: rgba(255, 255, 255, .6);
+}
+
 /*botones feature*/
 .btn-reserve{
     margin-top: 3%;
-    border-color: #A0E4CB;
+    border-color: #a1d6e2;
 
 }
 .btn-reserve:hover{
-    border-color: #99cccc;
-    color: #f9f9f9;
-    background-color: #99cccc;
+    border-color: #1995ad;
+    color: #fff;
+    background-color: #1995ad;
 }
 
 /*card carrousel*/
