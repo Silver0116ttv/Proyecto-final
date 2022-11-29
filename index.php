@@ -86,7 +86,7 @@
                         invasivos
                     </p>  
                 </div>
-                <button type="button" class="btn btn-outline-info btn-reserve">Reserva una cita</button>
+                <button type="button" class="btn btn-outline-info btn-reserve"><a href="reservar.php">Reserva una cita</a></button>
             </div>
         </section>
         <!--Tratamientos-->
@@ -174,14 +174,21 @@
         </section>
 
         <!--Iframe section-->
-        <section id="location">
-
-        </section>
+        <section id="location" class="section-padding text-center">
+            <h2>Donde nos ubicamos</h2>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione el consultorio</option>
+                <option value="San-Vicente">San Vicente</option>
+                <option  value="Sayulita">Sayulita</option>
+            </select>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14928.917265196134!2d-105.27799865!3d20.70091065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1669714637154!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
         <footer class="section-padding">
             <?php
                 include("footer.html");
             ?>
         </footer>
+        <script src="js/iframe.js"></script>
         <script src="https://kit.fontawesome.com/9a5b41a4b1.js" crossorigin="anonymous"></script>
     </body>
 </html>

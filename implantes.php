@@ -20,7 +20,7 @@
      <header>
             <nav>
                 <?php
-                    include("header.php");
+                    include("header.html");
                 ?>
             </nav>
         </header> 

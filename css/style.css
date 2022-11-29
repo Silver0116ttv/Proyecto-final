@@ -4,7 +4,7 @@ body{
     overflow-x: hidden;
 }
 footer{
-    color: #a1d6e2;
+    color: #cbeaf0;
     background-color: #4ba8c0;
 
 }
@@ -14,7 +14,8 @@ footer{
 }
 footer a{
     text-decoration: none;
-    color: #a1d6e2;
+    color: #cbeaf0;
+
 }
 h2{
     padding-bottom: 3%;
@@ -59,4 +60,7 @@ a{
     background-color: #1995ad;
 }
 
-/*card carrousel*/
+/*Location*/
+#location{
+    background-color: #fff;
+}
