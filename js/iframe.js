@@ -11,7 +11,7 @@ console.log(select)
 
 select.addEventListener("change", (e)=>{
     
-    console.log(e.target.value);
+    //console.log(e.target.value);
     
     if(e.target.value === "San-Vicente"){
         iframe.src = sanVicente;

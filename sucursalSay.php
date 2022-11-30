@@ -22,13 +22,46 @@
             ?>
         </nav>
     </header>
+    <div id="banner-area" class="banner-area " 
+            style="background-image:url(imagenes/fondo-p.jpg)"
+            style="
+            height: 450px;
+            position: relative;
+            min-height: 300px;
+            color: #fff;
+            background-position: 50% 50%;
+            background-size: cover;">
+            <div class="banner-text ">
+                <div class="container ">
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                    <div class="banner-heading mt-5" style="text-align: center;">
+                        <h1 class="banner-title">Sucursal Sayulita</h1>
+                        <nav aria-label="breadcrumb" 
+                            style="padding: 0;
+                            background: none;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            font-size: 12px;">
+                            <ol class="breadcrumb justify-content-center mt-5">
+                            <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Sucursales</li>
+                            <li class="breadcrumb-item active" aria-current="page">Sayulita</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div> 
     <section class="section-padding">
         
-        <h1 class="text-center mb-5">Sucursal Sayulita</h1> 
+        
         <div class="container-fluid main-container p-3">
             <p>Horario de trabajo:</p>
             <p>Ubicado en: </p>
-            <p>Calle reforma #32, 63737, San Vicente, Bahía de Banderas, Nay.</p>
+            <p>Calle Av.Revolución, Sayulita, Nayarit.</p>
                     
             <iframe src="https://www.google.com/maps/embed?pb=!4v1669706371566!6m8!1m7!1sSuL-HnxhRa1PkHnYSRvnLA!2m2!1d20.86585590196234!2d-105.4329168507928!3f9.164014751465743!4f-9.065128977464013!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 

@@ -1,0 +1,19 @@
+#main-header{
+    
+    font-size: 1.5rem;
+    color: #f9f9f9;
+}
+footer{
+    color: #cbeaf0;
+    background-color: #4ba8c0;
+
+}
+.social-footer .icon{
+    font-size: 3rem;
+    padding: 3%;
+}
+footer a{
+    text-decoration: none;
+    color: #cbeaf0;
+
+}

@@ -52,9 +52,42 @@
                 </button>
             </div>
     </section> -->
+    <div id="banner-area" class="banner-area " 
+            style="background-image:url(imagenes/fondo-p.jpg)"
+            style="
+            height: 450px;
+            position: relative;
+            min-height: 300px;
+            color: #fff;
+            background-position: 50% 50%;
+            background-size: cover;">
+            <div class="banner-text ">
+                <div class="container ">
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                    <div class="banner-heading mt-5" style="text-align: center;">
+                        <h1 class="banner-title">Sucursal San Vicente</h1>
+                        <nav aria-label="breadcrumb" 
+                            style="padding: 0;
+                            background: none;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            font-size: 12px;">
+                            <ol class="breadcrumb justify-content-center mt-5">
+                            <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Sucursales</li>
+                            <li class="breadcrumb-item active" aria-current="page">San Vicente</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div> 
     <section class="section-padding">
 
-        <h1 class="text-center mb-5">Sucursal San Vicente</h1> 
+        
         <div class="container-fluid main-container p-3">
             <p>Horario de trabajo:</p>
             <p>Ubicado en: </p>

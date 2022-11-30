@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        
         
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="css/header-footer.css">
+        
 
 
     <title>Implantes</title>
@@ -29,10 +30,39 @@
   
   <div  class="mt-5 container text-center">
   <div class="row">
-    <div  class="mt-5 col">
-      <h1 >Implantes</h1><br>
-      <h5 ><a href="index.php">Inicio</a> / Tratamientos / Implantes </h5>  </div>
-  </div>
+  <div id="banner-area" class="banner-area " 
+          style="background-image:url(imagenes/fondo-p.jpg)"
+          style="
+          height: 450px;
+          position: relative;
+          min-height: 300px;
+          color: #fff;
+          background-position: 50% 50%;
+          background-size: cover;">
+      <div class="banner-text ">
+        <div class="container ">
+          <div class="row">
+            <div class="col-lg-12 mt-5">
+              <div class="banner-heading mt-5" style="text-align: center;">
+                <h1 class="banner-title">Implantes Dentales</h1>
+                  <nav aria-label="breadcrumb" 
+                       style="padding: 0;
+                       background: none;
+                       font-weight: 700;
+                       text-transform: uppercase;
+                       font-size: 12px;">
+                    <ol class="breadcrumb justify-content-center mt-5">
+                      <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Tratamientos</li>
+                      <li class="breadcrumb-item active" aria-current="page">Implantes</li>
+                    </ol>
+                  </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div> 
 
  
 
@@ -146,9 +176,7 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <div class="spinner-border text-success" role="status">
-      <span class="visually-hidden">Loading...</span>
-      </div>
+        
         <p>La importancia de la prevención bucodental está en que nos permite mantener limpios y sanos a nuestras encías, dientes, lengua y boca en general con una buena higiene dental diaria. De esta manera nuestros dientes pueden cumplir su función y además evitaremos otro tipo de complicaciones y enfermedades.</p>
       </div>
     </div>
@@ -161,9 +189,7 @@
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <div class="spinner-border text-success" role="status">
-      <span class="visually-hidden">Loading...</span>
-      </div>
+        
         <p>Teniendo buenos hábitos bucales y asistiendo a consulta dental una vez cada seis meses.</p>
       </div>
     </div>
@@ -176,9 +202,7 @@
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <div class="spinner-border text-success" role="status">
-      <span class="visually-hidden">Loading...</span>
-      </div>
+        
         <p>Cepillado correcto, uso del hilo dental y si es necesario usar enjuague bucal</p>
       </div>
     </div>
@@ -189,7 +213,11 @@
     </div>
    </div>
   </div>  
-            
+  <footer class="section-padding">
+    <?php
+      include("footer.html");
+    ?>
+  </footer>        
         
     
      

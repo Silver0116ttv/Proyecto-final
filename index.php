@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="es-MX">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,12 +26,15 @@
         <section>
             
             <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
                 <div class="carousel-inner" >
+                    
                     <div class="carousel-item active">
+                        
                         <img src="imagenes/carrousel-images/img1.jpg" alt="carouselImage1" title="carouselImage1" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
@@ -53,7 +56,11 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
         </section>
+        <h1 class="text-center">
+            Clinica Alma Temblador
+        </h1>
         
         <!--Features section-->
         <section id="features" class="section-padding">

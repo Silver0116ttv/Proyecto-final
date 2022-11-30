@@ -3,20 +3,6 @@ body{
     background-color: #a1d6e2;
     overflow-x: hidden;
 }
-footer{
-    color: #cbeaf0;
-    background-color: #4ba8c0;
-
-}
-.social-footer .icon{
-    font-size: 3rem;
-    padding: 3%;
-}
-footer a{
-    text-decoration: none;
-    color: #cbeaf0;
-
-}
 
 a{
     text-decoration: none;
@@ -62,12 +48,20 @@ a{
 }
 
 /*Tratameintos*/
+
 .tratamiento-name{
     color: #555555;
 }
+
 .card img{
+    
     height: 100%;
     width: 100%;
+}
+
+.card-tratamiento:hover{
+    transform: scale(1.05, 1.05);
+    background-color: rgba(0, 0, 255, .1);
 }
 /*Location*/
 #location{
